@@ -11,9 +11,8 @@ fieldset {
     background-color: #d1c7bd;
     border: none; 
     border-radius: 30px; 
-    padding: 40px;
+    padding: 55px;
     width: 100%;
-    max-width: 400px;
     box-shadow: 0 10px 25px rgba(0,0,0,0.2); /* effet de fondu avec le backgound */
     text-align: center; 
 }
@@ -76,4 +75,25 @@ button {
 button:hover { 
     transform: translateY(-2px); 
     box-shadow: 0 8px 20px #d79a10;
+}
+
+.bouton-lien {
+    margin-top : 70px;
+    margin-bottom: -20px;
+    display: inline-block;
+    text-decoration: none; /* Enlève le soulignement du lien */
+    padding: 15px 30px;
+    background: linear-gradient(125deg, #e8c39e 0%, #eaccad 100%);
+    opacity: 80%;
+    color: #4b4a4a;
+    border-radius: 50px;
+    font-weight: bold;
+    text-align: center;
+    transition: 0.3s;
+    
+}
+
+.bouton-lien:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 5px 15px rgba(0,0,0,0.1);
 }
