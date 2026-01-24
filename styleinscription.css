@@ -1,5 +1,5 @@
 body {
-    background-color : #fef4e3 ;
+    background-color : #c5b290 ;
     display: flex;
     align-items:center;
     justify-content: center; 
@@ -13,7 +13,7 @@ fieldset {
     border-radius: 30px; 
     padding: 55px;
     width: 100%;
-    box-shadow: 0 10px 25px rgba(0,0,0,0.2); /* effet de fondu avec le backgound */
+    box-shadow: 0 10px 25px rgba(0,0,0,0.2); /* effet d'ombre avec le backgound */
     text-align: center; 
 }
 
@@ -65,7 +65,7 @@ button {
     border: none;
     border-radius: 50px;
     background: linear-gradient(135deg, #e5b186 0%, #dbc19c 100%);
-    color: #4b4a4a;
+    color: #4b4b4a;
     font-weight: bold;
     cursor: pointer;
     box-shadow: 0 5px 15px #ce8946;
