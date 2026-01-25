@@ -37,6 +37,7 @@ label { /* texte au dessus des cases où ecrire */
     color: #666;
     font-size: 16px;             
     margin-left: 15px;
+    pointer-events: none;
 }
 
 input { /* cases où ecrire */
@@ -96,4 +97,5 @@ button:hover {
 .bouton-lien:hover {
     transform: translateY(-2px);
     box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+
 }
