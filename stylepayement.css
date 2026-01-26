@@ -32,6 +32,8 @@ p {
 }
 
 label { /* texte au dessus des cases où ecrire */
+    pointer-events: none;
+    display: block;
     margin-bottom: 10px;
     color: #666;
     font-size: 16px;             
@@ -39,11 +41,11 @@ label { /* texte au dessus des cases où ecrire */
 }
 
 input { /* cases où ecrire */
-    width: 100%;
-    padding: 15px 20px;
+    width: 80%;
+    padding: 25px 10px;
     border: 1px solid #adaaa8;
     background-color: #f5f2ec; 
-    border-radius: 50px; 
+    border-radius: 70px; 
     box-sizing: border-box;
     font-size: 16px;
     transition: 0.3s;
@@ -58,10 +60,10 @@ input:focus { /* animation quand on écrit dans un champ */
 }
 
 button {
-    margin-top : 4vh;
-    margin-bottom: -20px;
-    width: 100%;
-    padding: 15px;
+    margin-top : 5vh;
+    margin-bottom: -30px;
+    width: 70%;
+    padding: 25px;
     border: none;
     border-radius: 50px;
     background: linear-gradient(135deg, #e5b186 0%, #dbc19c 100%);
@@ -82,7 +84,7 @@ button:hover {
     margin-top : 70px;
     margin-bottom: -20px;
     display: inline-block;
-    text-decoration: none; /* Enlève le soulignement du lien */
+    text-decoration: none; 
     padding: 15px 30px;
     background: linear-gradient(125deg, #e8c39e 0%, #eaccad 100%);
     opacity: 80%;
@@ -91,10 +93,16 @@ button:hover {
     font-weight: bold;
     text-align: center;
     transition: 0.3s;
-    
 }
 
 .bouton-lien:hover {
     transform: translateY(-2px);
     box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+}
+
+.groupe-champs {
+    display: flex;
+    gap: 15px; 
+    width: 100%;
+    justify-content: center;
 }

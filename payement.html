@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <title>Payement</title>
-    <link href="stylereservation.css" rel="stylesheet">
+    <link href="stylepayement.css" rel="stylesheet">
 </head>
 <body>
 
@@ -19,19 +19,20 @@
 
             <p>
                 <label for="num">Numéro sur la carte : </label>
-                <input type="text" id="num" name="num" placeholder="4152 1678 9857 2543" min="">
+                <input type="tel" id="num" name="num" placeholder="4152 1678 9857 2543" maxlength="19">
             </p>
 
-            <p>
-                <label for="dater">Date d'expiration : </label>
-                <input type="month" id="dater" name="dater" placeholder="09/2027">
-            </p>
-            
-            <p>
-                <label for="nombre">Code de sécurité : </label>
-                <input type="number" id="nombre" name="nombre" placeholder="XXX" min="1">
-            </p>
-
+            <div class="groupe-champs">
+                <p class="jpp">
+                    <label for="dater">Date d'expiration : </label>
+                    <input type="tel" id="dater" name="dater" placeholder="09/2027">
+                </p>
+                
+                <p>
+                    <label for="codesecu">Code de sécurité : </label>
+                    <input type="password" id="codesecu" name="codesecu" placeholder="XXX" maxlength="3">
+                </p>
+            </div>
             <p>
                 <button type="submit">Payer</button>
             </p>
