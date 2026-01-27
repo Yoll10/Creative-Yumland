@@ -1,0 +1,86 @@
+body {
+    background-color : #c5b290 ;
+    display: flex;
+    align-items:center;
+    justify-content: center; 
+    margin-top: 4vh;  
+    font-family: 'Futura' ;
+}
+
+.avatar{
+    max-height: 150px;
+    border-radius: 20px;
+    border: 2px solid #e5b186;
+}
+
+fieldset {
+    height:85%;
+    background-color: #d1c7bd;
+    border: none; 
+    border-radius: 30px; 
+    padding: 40px;
+    width: 100%;
+    box-shadow: 0 10px 25px rgba(0,0,0,0.2); 
+    text-align: center; 
+}
+
+legend {
+    float: left;         
+    width: 100%;        
+    margin-bottom: 50px; 
+    padding: 0;
+    font-size: 28px;
+    font-weight: bold;
+    color: #4b4a4a;
+}
+
+label { /* texte au dessus des cases où ecrire */
+    display: block;
+    margin-bottom: 10px;
+    color: #666;
+    font-size: 16px;             
+    margin-left: 15px;
+    pointer-events: none;
+}
+
+input { /* cases où ecrire */
+    width: 80%;
+    padding: 15px 20px;
+    border: 1px solid #adaaa8;
+    background-color: #f5f2ec; 
+    border-radius: 50px; 
+    box-sizing: border-box;
+    font-size: 16px;
+    transition: 0.3s;
+    text-align: center;
+}
+
+input:focus { /* animation quand on écrit dans un champ */
+    outline: none;
+    border-color: #eee5d9; 
+    background-color: #fff;
+    box-shadow: 0 0 10px #f8d1aa;
+}
+
+button {
+    margin-top : 40px;
+    margin-bottom: -20px;
+    display: inline-block;
+    width: 60%;
+    padding: 15px;
+    border: none;
+    border-radius: 50px;
+    background: linear-gradient(135deg, #e5b186 0%, #dbc19c 100%);
+    color: #4b4b4a;
+    font-weight: bold;
+    cursor: pointer;
+    box-shadow: 0 5px 15px #ce8946;
+    transition: 0.3s;
+}
+
+button:hover { 
+    transform: translateY(-2px); 
+    box-shadow: 0 8px 20px #d79a10;
+}
+
+

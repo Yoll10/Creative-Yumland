@@ -13,7 +13,7 @@ fieldset {
     border-radius: 30px; 
     padding: 55px;
     width: 100%;
-    box-shadow: 0 10px 25px rgba(0,0,0,0.2); /* effet d'ombre avec le backgound */
+    box-shadow: 0 10px 25px rgba(0,0,0,0.2); 
     text-align: center; 
 }
 

@@ -1,0 +1,153 @@
+body {
+    background-color: #c5b290;
+    font-family: 'Futura';
+}
+
+.titre{
+    font-size: 20px;
+}
+
+.colonnes{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.colonnes>div{
+    height: 450px;
+    width: 300px;
+    margin:50px;
+    text-align:center;
+    background:#d1c7bd;
+    border-radius:30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between; /* Aligne le premier élément en haut et le dernier en bas */
+    padding: 30px 0; /* Ajoute un peu d'espace interne pour que le bouton ne touche pas le bord */
+    box-sizing: border-box;
+    box-shadow: 0 10px 25px rgba(0,0,0,0.2);
+    transition:0.3s;
+}
+
+.colonnes>div:hover {
+    transform: scale(1.05); 
+    box-shadow: 0 15px 35px rgba(0,0,0,0.3); 
+}
+
+.bouton-discover{
+    text-decoration: none;
+    padding: 12px;
+    width: 60%;
+    align-self: center; 
+    color: black;
+    box-shadow: 0 0 20px #e0b963;
+    background: #e9e3d5;
+    border-radius: 50px;
+    border: none;
+    display: inline-block;
+    transition:0.3s;
+}
+
+.bouton-discover:hover{
+    transform: translateY(-2px);
+    box-shadow: 0 5px 15px rgba(175, 128, 25, 0.863);
+}
+.img-1{
+    width: 80%;
+    height: 200px; 
+    object-fit: cover; 
+    object-position: center;
+    border-radius: 10px;
+    margin-left:31px;
+    margin-bottom: 50px;
+}
+
+.img-1:hover{
+    content: url("https://auparadisduthe.com/wp-content/uploads/2022/06/oeufs-au-plat-petit-dej.jpg");
+}
+.img-2{
+    width: 80%;
+    height: 200px; 
+    object-fit: cover; 
+    object-position: center;
+    border-radius: 10px;
+    margin-left:31px;
+    margin-bottom: 50px;
+}
+.img-2:hover{
+    content: url("https://cdn.prod.website-files.com/60e1f68bc720984ae7e18521/615ae109681d0f00c3c6e177_restaurant-etoile-clickandcollect.jpeg");
+}
+.img-3{
+    width: 80%;
+    height: 200px; 
+    object-fit: cover; 
+    object-position: center;
+    border-radius: 10px;
+    margin-left:31px;
+    margin-bottom: 50px;
+}
+.img-3:hover{
+    content: url("https://www.lavieclaire.com/wp-content/uploads/2019/12/chocolat-chaud-viennois.jpg");
+}
+
+
+.boxmenu{
+    display : flex;
+    justify-content: center;
+}
+
+.boxmenu>div{
+    height: 250px;
+    margin:50px;
+    width: 600px;
+    text-align:center;
+    background:#d1c7bd;
+    border-radius:30px;
+    display: flex;
+    flex-direction: column;
+    padding: 30px ;
+    box-sizing: border-box;
+    box-shadow: 0 10px 25px rgba(0,0,0,0.2);
+    transition:0.3s;
+}
+
+.boxmenu>div>.titre{
+    text-align:left;
+}
+
+.boxmenu>div:hover {
+    transform: scale(1.05);
+    box-shadow: 0 15px 35px rgba(0,0,0,0.3);
+}
+
+.menuimg{
+    width: 140px;
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
+    border-radius: 10px;
+    margin-left:350px;
+    margin-bottom: -60px;
+}
+
+.bouton-discover-menu{
+    text-decoration: none;
+    padding: 12px;
+    width: 40%;
+    align-self: left;
+    color: black;
+    box-shadow: 0 0 20px #e0b963;
+    background: #e9e3d5;
+    border-radius: 50px;
+    border: none;
+    display: inline-block;
+    transition:0.3s;
+}
+
+
+
+.bouton-discover-menu:hover{
+    transform: translateY(-2px);
+    box-shadow: 0 5px 15px rgba(175, 128, 25, 0.863);
+}
+

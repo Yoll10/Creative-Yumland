@@ -49,6 +49,7 @@ input { /* cases où ecrire */
     box-sizing: border-box;
     font-size: 16px;
     transition: 0.3s;
+    text-align: center;
 }
 
 input:focus { /* animation quand on écrit dans un champ */
