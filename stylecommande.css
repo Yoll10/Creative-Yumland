@@ -1,0 +1,97 @@
+.commande {
+    max-width: 1200px;
+    margin: auto;
+    padding: 40px 20px;
+}
+
+.commande-header {
+    text-align: center;
+    margin-bottom: 60px;
+}
+
+.commande-header h1 {
+    font-size: 3rem;
+}
+
+.commande-mode {
+    margin-bottom: 40px;
+}
+
+.mode-options {
+    display: flex;
+    gap: 20px;
+}
+.commande-mode h2 {
+    padding-bottom: 15px;
+}
+
+.mode {
+    padding: 15px 30px;
+    background-color: var(--beige);
+    cursor: pointer;
+}
+
+.mode.active {
+    border: 1px solid var(--marron);
+}
+
+.commande-content {
+    display: flex;
+    gap: 40px;
+}
+
+.plats {
+    flex: 2;
+}
+
+.categorie h3 {
+    margin: 30px 0 15px;
+}
+
+.plat {
+    background-color: var(--beige);
+    padding: 20px;
+    margin-bottom: 15px;
+    display: grid;
+    grid-template-columns: 1fr auto auto;
+    gap: 20px;
+    align-items: center;
+}
+
+.plat button {
+    background-color: var(--marron);
+    color: var(--creme);
+    border: none;
+    padding: 8px 16px;
+}
+
+.panier {
+    flex: 1;
+    background-color: var(--sable);
+    padding: 30px;
+}
+
+.panier-item,
+.panier-total {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 15px;
+}
+
+.client-form input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: none;
+}
+
+.btn-secondary {
+    width: 100%;
+    padding: 12px;
+    background-color: var(--marron);
+    color: var(--creme);
+    border: none;
+    margin-top: 10px;
+}
+
+
