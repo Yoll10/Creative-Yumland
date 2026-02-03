@@ -7,7 +7,7 @@ body {
     display: flex;
     align-items: top;
     justify-content: center;
-    font-size: 60px;
+    font-size: 80px;
     font-weight: bold;
     color: #4b4a4a;
     margin-bottom: 150px;;
@@ -15,7 +15,7 @@ body {
 
 .titre2{
     padding-bottom: 20px;
-    font-size: 20px;
+    font-size: 30px;
 }
 
 .colonnes{
@@ -33,7 +33,7 @@ body {
     border-radius:30px;
     display: flex;
     flex-direction: column;
-    justify-content: flex-start; /* Aligne tout vers le haut pour plus de contrôle */
+    justify-content: flex-start; 
     padding: 30px;
     box-sizing: border-box;
     box-shadow: 0 10px 25px rgba(0,0,0,0.2);
@@ -74,27 +74,47 @@ body {
     box-shadow: 0 5px 15px rgba(175, 128, 25, 0.863);
 }
 
-.barre{
-    display:flex;
+
+form {
+    display: flex;
     justify-content: center;
     margin-bottom: 50px;
-    width: 80%;
-    padding: 25px 10px;
-    border: 1px solid #adaaa8;
-    background-color: #f5f2ec; 
-    border-radius: 70px; 
-    box-sizing: border-box;
-    font-size: 16px;
+}
+
+.barre {
+    display: flex;
+    align-items: center; 
+    width: 600px; 
+    padding: 15px 15px;
+    background-color: white; 
+    border-radius: 100px; 
+    box-shadow: 0 4px 15px rgba(0,0,0,0.05); 
+    border: 1px solid #e0e0e0; 
     transition: 0.3s;
-    text-align: center;
 }
 
-.barre:focus { /* animation quand on écrit dans un champ */
-    outline: none;
-    border-color: #eee5d9; 
-    background-color: #fff;
-    box-shadow: 0 0 10px #f8d1aa;
+.loupe {
+    margin-right: 15px;
+    color: #b91515;
+    font-size: 20px;
 }
 
 
+#maRecherche {
+    border: none;
+    background: transparent;
+    outline: none; 
+    width: 100%;
+    font-size: 18px;
+    font-family: 'Futura', sans-serif;
+}
 
+
+.btn-invisible {
+    display: none;
+}
+
+.barre:focus-within {
+    box-shadow: 0 6px 20px rgba(0,0,0,0.1);
+    border-color: #d1c7bd;
+}

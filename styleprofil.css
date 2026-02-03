@@ -1,93 +1,101 @@
 body {
-    background-color : #c5b290 ;
+    background-color: #c5b290;
     display: flex;
-    align-items:center;
-    justify-content: center; 
-    margin-top: 4vh;  
-    font-family: 'Futura' ;
-}
-
-.avatar{
-    max-height: 150px;
-    border-radius: 20px;
-    border: 2px solid #e5b186;
-}
-
-.espaceavatar{
-    display: flex;         
-    align-items: flex-end; 
-    justify-content: center; 
-    gap: 15px;            
-    margin-bottom: 20px;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    margin: 0;
+    font-family: 'Futura', sans-serif;
 }
 
 fieldset {
-    height: auto; 
     background-color: #d1c7bd;
-    border: none; 
-    border-radius: 30px; 
+    border: none;
+    border-radius: 40px;
     padding: 40px;
-    width: 100%;
-    box-shadow: 0 10px 25px rgba(0,0,0,0.2); 
+    width: 450px;
+    box-shadow: 0 15px 35px rgba(0,0,0,0.2);
     text-align: center;
 }
 
-legend {
-    margin-top: 30px;
-    margin-bottom: 20px; 
-    padding: 0 10px; 
+.titre-profil {
     font-size: 28px;
     font-weight: bold;
     color: #4b4a4a;
-    margin-left: auto;
-    margin-right: auto;
+    margin-top: 0;
+    margin-bottom: 30px;
 }
 
-label { /* texte au dessus des cases où ecrire */
+/* Structure de chaque ligne */
+.ligne-form {
+    display: flex;
+    align-items: flex-end; /* Aligne le bouton avec le bas de l'input */
+    justify-content: center;
+    gap: 10px;
+    margin-bottom: 25px;
+}
+
+/* Zone qui contient l'image ou le couple label/input */
+.zone-contenu {
+    flex: 80%; 
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.avatar {
+    max-height: 150px;
+    width: 150px;
+    object-fit: cover;
+    border-radius: 25px;
+    border: 3px solid #e5b186;
+    background-color: #eee;
+}
+
+label {
     display: block;
-    margin-bottom: 10px;
+    margin-bottom: 8px;
     color: #666;
-    font-size: 16px;             
-    margin-left: 15px;
-    pointer-events: none;
+    font-size: 14px;
 }
 
-input { /* cases où ecrire */
-    width: 80%;
-    padding: 15px 20px;
+input {
+    width: 100%;
+    padding: 15px;
     border: 1px solid #adaaa8;
-    background-color: #f5f2ec; 
-    border-radius: 50px; 
+    background-color: #f5f2ec;
+    border-radius: 50px;
     box-sizing: border-box;
     font-size: 16px;
-    transition: 0.3s;
     text-align: center;
+    transition: 0.3s;
 }
 
-input:focus { /* animation quand on écrit dans un champ */
+input:focus {
     outline: none;
-    border-color: #eee5d9; 
     background-color: #fff;
     box-shadow: 0 0 10px #f8d1aa;
+    border-color: #e5b186;
 }
 
-.edit{
-    margin-top : 10px;
-    margin-bottom: 20px;
-    display: inline-block;
-    width: 10%;
-    padding: 15px;
+
+.edit {
+    width: 45px;
+    height: 45px;
     border: none;
-    border-radius: 50px;
+    border-radius: 50%;
     background: linear-gradient(135deg, #e5b186 0%, #dbc19c 100%);
-    color: #4b4b4a;
-    font-weight: bold;
     cursor: pointer;
-    box-shadow: 0 5px 15px #ce8946;
+    box-shadow: 0 4px 10px rgba(206, 137, 70, 0.5);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 18px;
     transition: 0.3s;
+    margin-bottom: 2px; 
 }
 
-.edit:hover{
-    transform: translateY(-2px); 
-    box-shadow: 0 8px 20px #d79a10;
+.edit:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 6px 15px #d79a10;
 }
