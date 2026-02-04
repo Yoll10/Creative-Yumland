@@ -133,3 +133,8 @@ a:hover {
     font-size: 0.8rem;
     color: var(--gris-texte);
 }
+
+.forms {
+    margin-top: 50px;
+    margin-bottom: 70px;
+}

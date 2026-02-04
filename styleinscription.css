@@ -1,18 +1,15 @@
-body {
-    background-color : #c5b290 ;
-    display: flex;
-    align-items:center;
-    justify-content: center; 
-    margin-top: 7vh;  
-    font-family: 'Futura' ;
+form{
+    display:flex;
+    justify-content: center;
+    align-items: center;
 }
 
 fieldset {
     background-color: #d1c7bd;
     border: none; 
     border-radius: 30px; 
-    padding: 55px;
-    width: 100%;
+    padding: 80px;
+    width: 30%;
     box-shadow: 0 10px 25px rgba(0,0,0,0.2); /* effet d'ombre avec le backgound */
     text-align: center; 
 }
