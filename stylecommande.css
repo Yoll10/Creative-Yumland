@@ -1,5 +1,5 @@
 .commande {
-    max-width: 1200px;
+    max-width: 1400px;
     margin: auto;
     padding: 40px 20px;
 }
@@ -63,12 +63,24 @@
     color: var(--creme);
     border: none;
     padding: 8px 16px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.plat button:hover {
+    background-color: var(--marron-clair);
+    transform: translateY(-2px);
+    box-shadow: 0 6px 15px rgba(0, 0, 0, 0.15);
 }
 
 .panier {
     flex: 1;
     background-color: var(--sable);
-    padding: 30px;
+    padding: 35px;
+    padding-left: 30px;
+    margin-top: 40px;              
+    border-radius: 6px;            
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.08);
 }
 
 .panier-item,
@@ -92,6 +104,36 @@
     color: var(--creme);
     border: none;
     margin-top: 10px;
+    cursor: pointer;
+    transition: all 0.3s ease;
 }
 
+.btn-secondary:hover {
+    background-color: var(--marron-clair);
+    transform: translateY(-2px);
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
+}
 
+.choix-livraison {
+    display: flex;
+    gap: 20px;
+    margin-bottom: 30px;
+}
+
+.option {
+    flex: 1;
+    padding: 14px 0;
+    border: 1px solid var(--marron);
+    background-color: transparent;
+    color: var(--marron);
+    font-size: 0.95rem;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.option:hover {
+    background-color: var(--marron);
+    color: var(--creme);
+    transform: translateY(-2px);
+    box-shadow: 0 6px 15px rgba(0, 0, 0, 0.15);
+}

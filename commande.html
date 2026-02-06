@@ -18,13 +18,20 @@
 
         <ul class="links">
             <li><a href="carte.html">Carte</a></li>
-            <li><a href="connexion.html">Connexion</a></li>
             <li><a href="contact.html">Contact</a></li>
         </ul>
 
-        <a href="commande.html" class="btn-primary">Commander</a>
+        <div class="nav-actions">
+            <a href="connexion.html" class="btn-primary">Se connecter</a>
+            <a href="admin.html" class="btn-primary">Vue admin</a>
+            <a href="commande.html" class="btn-primary">Commander</a>
+            <a href="profil.html" class="btn-primary">Voir Profil</a>
+        </div>
     </nav>
 </header>
+
+
+
 
 <main class="commande">
 
@@ -36,9 +43,9 @@
 
     <section class="commande-mode">
         <h2>Mode de commande</h2>
-        <div class="mode-options">
-            <div class="mode">À emporter</div>
-            <div class="mode">Livraison</div>
+        <div class="choix-livraison">
+            <button class="option active">À emporter</button>
+            <button class="option">Livraison</button>
         </div>
     </section>
 
